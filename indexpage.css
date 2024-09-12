@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6b6c6;
+    margin: 10px;
+    padding: 20px;
+    color:  #003f7f;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color:  #003f7f;
+    margin: 0;
+}
+
+header img {
+    border-radius: 0%;
+    margin-top: 10px;
+}
+
+/* About Me Section */
+section h2 {
+    color:  #003f7f;
+    font-size: 28px;
+    border-bottom: 2px solid  #003f7f;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    background-color:  #003f7f;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #003f7f;
+}
+
+
+
+header, section, footer {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 0 10px #1a3957(249, 54, 54, 0.1);
+}
+
+h1, h2 {
+    color: #005f73;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+a:hover {
+    color: #00a8e8;
+}
+
+footer a {
+    color: #0077b6;
+}
